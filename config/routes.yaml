@@ -1,3 +1,10 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+#
+#saludar:
+#    path: 
+#      - /saludar/{nombre}
+#      - /saludar
+#    controller: App\Controller\DefaultController::saludar
+  
